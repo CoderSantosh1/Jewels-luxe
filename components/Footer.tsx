@@ -10,7 +10,7 @@ import {
 import { siteData, type SocialLink } from "@/data";
 
 function SocialIcon({ icon }: { icon: SocialLink["icon"] }) {
-  const className = "size-6 shrink-0 text-[#e9bd59]";
+  const className = "size-5 shrink-0 text-[#e9bd59] sm:size-6";
 
   if (icon === "facebook") {
     return (
@@ -52,67 +52,74 @@ function SocialIcon({ icon }: { icon: SocialLink["icon"] }) {
 
 export default function Footer() {
   return (
-    <footer className="relative bg-[#090909] text-white">
+    <footer className="relative overflow-hidden bg-[#090909] text-white">
+
       <div className="relative mx-auto max-w-[1440px] px-5 sm:px-8 lg:px-14">
 
         {/* Main Footer Content */}
-        <div className="relative grid grid-cols-1 gap-10 border-b border-[#c99a35] py-12 pt-16 md:grid-cols-[1fr_1.15fr_0.8fr] md:gap-8 md:pt-16 lg:gap-14">
+        <div className="relative grid grid-cols-1 gap-8 border-b border-[#c99a35] py-10 md:gap-8 md:py-12 md:pt-16 lg:grid-cols-[1fr_1.15fr_0.8fr] lg:gap-14">
 
           {/* Model Image */}
-          <div className="relative z-10 mx-auto -mt-28 w-full max-w-[300px] md:absolute md:-top-[70px] md:left-8 md:mx-0 md:mt-0 md:w-[335px] lg:left-16 lg:w-[335px]">
-            <div className="relative aspect-[3/4] overflow-hidden rounded-[22px] border-[3px] border-[#d9aa4b] bg-[#252525]">
+          <div className="relative z-10 mx-auto w-full max-w-[190px] md:max-w-[250px] lg:absolute lg:-top-[70px] lg:left-16 lg:mx-0 lg:w-[335px] lg:max-w-none">
+            <div className="relative aspect-[3/4] overflow-hidden rounded-[18px] border-[3px] border-[#d9aa4b] bg-[#252525] lg:rounded-[22px]">
               <Image
                 src={siteData.common.site.images.footerModel}
                 alt={`${siteData.common.site.name} jewellery collection`}
                 fill
+                priority
+                sizes="(max-width: 768px) 190px, 335px"
                 className="object-cover object-center"
-                sizes="(max-width: 768px) 100vw, 335px"
               />
             </div>
           </div>
 
           {/* Contact Information */}
-          <div className="flex flex-col justify-center md:col-start-2 md:pl-4 lg:pl-0">
+          <div className="flex min-w-0 flex-col justify-center lg:col-start-2 lg:pl-0">
 
-            <p className="mb-1 text-base sm:text-lg">
+            <p className="mb-1 text-sm text-gray-100 sm:text-lg">
               {siteData.footer.emailIntro}
             </p>
 
             <a
               href={siteData.common.site.emailHref}
-              className="mb-6 text-lg text-[#e9bd59] transition hover:text-white"
+              className="mb-5 break-all text-base text-[#e9bd59] transition hover:text-white sm:mb-6 sm:text-lg"
             >
               {siteData.common.site.email}
             </a>
 
+            {/* Phone */}
             <a
               href={siteData.common.site.phoneHref}
-              className="mb-5 flex items-center gap-5"
+              className="mb-4 flex min-w-0 items-center gap-3 sm:gap-5"
             >
               <Phone
-                size={29}
-                className="shrink-0 fill-[#e9bd59] text-[#e9bd59]"
+                size={25}
+                className="shrink-0 fill-[#e9bd59] text-[#e9bd59] sm:size-[29px]"
               />
-              <span className="text-2xl font-medium tracking-wide sm:text-3xl">
+
+              <span className="min-w-0 break-words text-xl font-medium tracking-wide sm:text-2xl lg:text-3xl">
                 {siteData.common.site.phone}
               </span>
             </a>
 
-            <div className="mb-5 flex items-start gap-5">
+            {/* Address */}
+            <div className="mb-4 flex items-start gap-3 sm:gap-5">
               <MapPin
-                size={32}
-                className="mt-1 shrink-0 fill-[#e9bd59] text-[#e9bd59]"
+                size={27}
+                className="mt-1 shrink-0 fill-[#e9bd59] text-[#e9bd59] sm:size-8"
               />
-              <p className="text-lg leading-7 sm:text-xl">
+
+              <p className="min-w-0 text-sm leading-6 text-gray-100 sm:text-lg sm:leading-7 lg:text-xl">
                 {siteData.common.site.address}
               </p>
             </div>
 
-            <p className="text-base italic leading-7 text-gray-300">
+            {/* Enquiry Text */}
+            <p className="text-sm italic leading-6 text-gray-300 sm:text-base sm:leading-7">
               {siteData.footer.enquiryText}{" "}
               <a
                 href="#contact"
-                className="text-[#e9bd59] underline underline-offset-4 hover:text-white"
+                className="whitespace-nowrap text-[#e9bd59] underline underline-offset-4 hover:text-white"
               >
                 {siteData.contact.navLabel}
               </a>
@@ -120,9 +127,11 @@ export default function Footer() {
           </div>
 
           {/* Social Links & Business Hours */}
-          <div className="flex flex-col justify-center border-t border-white/20 pt-8 md:border-l md:border-t-0 md:pl-8 md:pt-0 lg:pl-12">
+          <div className="flex min-w-0 flex-col justify-center border-t border-white/20 pt-7 md:border-l md:border-t-0 md:pl-8 md:pt-0 lg:pl-12">
 
-            <div className="space-y-5">
+            {/* Social Links */}
+            <div className="mx-auto w-full max-w-[280px] space-y-5 md:mx-0 md:max-w-none">
+
               {siteData.footer.socialLinks.map((item) => (
                 <a
                   key={item.name}
@@ -130,25 +139,25 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={item.name}
-                  className="flex items-center justify-end gap-6 text-sm tracking-[4px] transition hover:text-[#e9bd59]"
+                  className="flex items-center justify-between gap-5 text-xs tracking-[3px] transition hover:text-[#e9bd59] sm:text-sm sm:tracking-[4px] md:justify-end"
                 >
-                  {item.name.toUpperCase()}
+                  <span>{item.name.toUpperCase()}</span>
                   <SocialIcon icon={item.icon} />
                 </a>
               ))}
             </div>
 
             {/* Divider */}
-            <div className="my-8 ml-auto h-[2px] w-20 bg-[#d9aa4b]" />
+            <div className="my-6 ml-auto mr-auto h-[2px] w-16 bg-[#d9aa4b] md:mr-0 md:w-20" />
 
             {/* Business Hours */}
-            <div className="flex items-center justify-end gap-5">
+            <div className="flex items-center justify-center gap-4 md:justify-end md:gap-5">
               <CalendarDays
-                size={30}
-                className="shrink-0 text-[#e9bd59]"
+                size={26}
+                className="shrink-0 text-[#e9bd59] sm:size-[30px]"
               />
 
-              <p className="text-base leading-7">
+              <p className="text-sm leading-6 sm:text-base sm:leading-7">
                 {siteData.common.site.openingDays}
                 <br />
                 {siteData.common.site.openingHours}
@@ -157,44 +166,47 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom Navigation */}
-        <div className="flex flex-col items-center justify-between gap-8 py-8 xl:flex-row">
+        {/* Bottom Footer */}
+        <div className="flex flex-col items-center gap-7 py-8 xl:flex-row xl:justify-between">
 
           {/* Brand Logo */}
           <a
             href="#home"
-            className="flex shrink-0 items-center gap-3"
+            className="flex shrink-0 items-center justify-center gap-3"
           >
             <Gem
-              size={49}
+              size={42}
               strokeWidth={1.3}
-              className="text-[#e9bd59]"
+              className="shrink-0 text-[#e9bd59] sm:size-[49px]"
             />
 
             <div>
-              <h2 className="whitespace-nowrap font-serif text-2xl tracking-wide sm:text-[27px]">
+              <h2 className="whitespace-nowrap font-serif text-xl tracking-wide sm:text-2xl lg:text-[27px]">
                 {siteData.common.site.name.toUpperCase()}
               </h2>
 
               <div className="mt-1 flex items-center gap-2">
                 <span className="h-[1px] flex-1 bg-[#d9aa4b]" />
-                <span className="text-[10px] tracking-[4px]">
+
+                <span className="whitespace-nowrap text-[9px] tracking-[3px] sm:text-[10px] sm:tracking-[4px]">
                   {siteData.common.site.tagline.toUpperCase()}
                 </span>
+
                 <span className="h-[1px] flex-1 bg-[#d9aa4b]" />
               </div>
             </div>
           </a>
 
           {/* Navigation Links */}
-          <nav className="flex flex-wrap items-center justify-center gap-x-6 gap-y-4">
+          <nav className="grid w-full grid-cols-2 gap-x-5 gap-y-4 text-center sm:flex sm:flex-wrap sm:justify-center sm:gap-x-6 sm:gap-y-4 xl:w-auto">
+
             {siteData.footer.navigation.map((item, index) => (
               <a
                 key={item.name}
                 href={item.href}
-                className={`relative text-sm transition-colors hover:text-[#e9bd59] ${
+                className={`relative text-xs transition-colors hover:text-[#e9bd59] sm:text-sm ${
                   index === 0
-                    ? "font-medium text-[#e9bd59] after:absolute after:-bottom-3 after:left-0 after:h-[3px] after:w-full after:bg-[#e9bd59]"
+                    ? "font-medium text-[#e9bd59]"
                     : "text-white"
                 }`}
               >
@@ -206,7 +218,7 @@ export default function Footer() {
           {/* Contact Button */}
           <a
             href="#contact"
-            className="inline-flex shrink-0 items-center gap-3 rounded-md bg-[#e9bd59] px-5 py-3 text-sm font-semibold text-black transition hover:bg-white"
+            className="inline-flex w-full items-center justify-center gap-3 rounded-md bg-[#e9bd59] px-5 py-3 text-sm font-semibold text-black transition hover:bg-white sm:w-auto"
           >
             {siteData.contact.navLabel}
             <ArrowRight size={18} />
@@ -215,10 +227,11 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-[#d9aa4b] py-5 text-center">
-          <p className="text-sm text-white sm:text-base">
-              {siteData.footer.copyright}
+          <p className="text-xs leading-6 text-white sm:text-sm md:text-base">
+            {siteData.footer.copyright}
           </p>
         </div>
+
       </div>
     </footer>
   );

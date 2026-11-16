@@ -4,7 +4,7 @@
       "name": "Jewels & Luxe",
       "tagline": "Fine Jewellery",
       "description": "Discover timeless fine jewellery from Jewels & Luxe.",
-      "address": "12 Kensington High Street, London, W8 4PE, United Kingdom",
+      "address": "12 Kensington High Street,  USA",
       "phone": "+1 000000000",
       "phoneHref": "tel:+1000000000",
       "email": "info@xyz.com",
@@ -210,6 +210,6 @@
       { "name": "FAQs", "href": "#faqs" },
       { "name": "Contact Us", "href": "#contact" }
     ],
-    "copyright": "(c) Jewels & Luxe. All rights reserved."
+    "copyright": "(c) 2026 Jewels & Luxe. All rights reserved. Powered by Lestow"
   }
 }

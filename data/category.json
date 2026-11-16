@@ -1,0 +1,215 @@
+{
+  "common": {
+    "site": {
+      "name": "Jewels & Luxe",
+      "tagline": "Fine Jewellery",
+      "description": "Discover timeless fine jewellery from Jewels & Luxe.",
+      "address": "12 Kensington High Street, London, W8 4PE, United Kingdom",
+      "phone": "+1 000000000",
+      "phoneHref": "tel:+1000000000",
+      "email": "info@xyz.com",
+      "emailHref": "mailto:info@xyz.com",
+      "openingDays": "Monday \u2013 Saturday",
+      "openingHours": "10:00 AM \u2013 6:00 PM",
+      "images": {
+        "aboutBackground": "/Image/aboutusbg.png",
+        "collectionBackground": "/Image/ourcollectionbg.png",
+        "aboutModel": "/Image/abouts-1.png",
+        "aboutRing": "/Image/aboutus-2.png",
+        "whyChooseUs": "/Image/why-left.webp",
+        "footerModel": "/Image/footer-model-1.jpg"
+      }
+    }
+  },
+  "navigation": [
+    { "name": "Home", "href": "#home" },
+    { "name": "About Us", "href": "#about" },
+    { "name": "Our Collections", "href": "#collections" },
+    { "name": "Why Choose Us", "href": "#why-choose-us" },
+    { "name": "Gallery", "href": "#gallery" },
+    { "name": "Testimonials", "href": "#testimonials" },
+    { "name": "FAQs", "href": "#faqs" }
+  ],
+  "hero": {
+    "imageAlt": "Luxury diamond jewellery collection",
+    "ctaText": "Shop Now",
+    "slides": [
+      {
+        "image": "/Image/herobg-1.png",
+        "offer": "Flat 50% Discount",
+        "title": "Silver And Diamond",
+        "subtitle": "Earrings",
+        "description": "Designer Jewellery \u2022 Necklaces \u2022 Bracelets \u2022 Earrings"
+      },
+      {
+        "image": "/Image/herobg-1.png",
+        "offer": "Exclusive Collection",
+        "title": "Elegant Diamond",
+        "subtitle": "Necklaces",
+        "description": "Premium Jewellery \u2022 Diamond \u2022 Gold \u2022 Necklaces"
+      },
+      {
+        "image": "/Image/herobg-1.png",
+        "offer": "Special Festive Offer",
+        "title": "Luxury Jewellery",
+        "subtitle": "Collection",
+        "description": "Rings \u2022 Bracelets \u2022 Earrings \u2022 Pendants"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "readMoreText": "Read More",
+    "modelAlt": "Elegant jewellery model wearing diamond earrings",
+    "ringAlt": "Luxury diamond gold ring",
+    "heading": ["A Legacy of", "Timeless Jewellery"],
+    "description": "We are a premium jewellery brand dedicated to crafting exquisite pieces that blend traditional artistry with modern elegance. With a passion for quality, authenticity, and exceptional design, we create jewellery for life's most cherished moments.",
+    "features": [
+      { "icon": "Gem", "lines": ["Premium", "Craftsmanship"] },
+      { "icon": "Award", "lines": ["Certified", "Quality"] },
+      { "icon": "ShieldCheck", "lines": ["Authentic", "Materials"] },
+      { "icon": "Infinity", "lines": ["Timeless", "Designs"] }
+    ]
+  },
+  "collection": {
+    "title": "Our Collection",
+    "description": "Discover our exquisite range of handcrafted jewellery, designed to add sparkle to every occasion.",
+    "products": [
+      { "name": "Twilight Diamond Ring", "image": "/Image/product-1.webp", "rating": 4, "price": "$320 - $680", "discount": "" },
+      { "name": "Pear Shape Diamond Necklace", "image": "/Image/product-2.webp", "rating": 5, "price": "$450 - $780", "discount": "" },
+      { "name": "Floral Diamond Earrings", "image": "/Image/product-3.webp", "rating": 4, "price": "$280 - $520", "discount": "" },
+      { "name": "Infinity Diamond Bracelet", "image": "/Image/product-4.webp", "rating": 5, "price": "$520 - $890", "discount": "-15%" },
+      { "name": "Leaf Diamond Ring", "image": "/Image/product-5.webp", "rating": 4, "price": "$250 - $480", "discount": "" },
+      { "name": "Classic Diamond Bangle", "image": "/Image/product-6.webp", "rating": 5, "price": "$600 - $1,050", "discount": "-20%" },
+      { "name": "Royal Diamond Pendant", "image": "/Image/product-7.webp", "rating": 4, "price": "$380 - $720", "discount": "" },
+      { "name": "Grace Diamond Earrings", "image": "/Image/product-8.webp", "rating": 5, "price": "$290 - $560", "discount": "" }
+    ]
+  },
+  "whyChooseUs": {
+    "imageAlt": "Woman wearing elegant diamond jewellery",
+    "heading": ["Why", "Choose Us"],
+    "description": "A perfect blend of quality, trust, and timeless designs that make your jewellery truly special.",
+    "benefits": [
+      { "icon": "Gem", "title": "Premium Quality", "description": "Crafted with high-grade materials for lasting brilliance." },
+      { "icon": "Crown", "title": "Exquisite Designs", "description": "A timeless collection blending tradition and modern style." },
+      { "icon": "ShieldCheck", "title": "Certified & Authentic", "description": "Hallmarked and quality-assured jewellery you can trust." },
+      { "icon": "Sprout", "title": "Ethically Sourced", "description": "Responsibly sourced gemstones and materials." },
+      { "icon": "Gift", "title": "Elegant Packaging", "description": "Luxury packaging, perfect for gifting on special occasions." }
+    ]
+  },
+  "gallery": {
+    "heading": ["Our", "Gallery"],
+    "description": "A glimpse of our exquisite jewellery collection, crafted with passion and precision.",
+    "images": [
+      { "src": "/Image/gallary-1.webp", "alt": "Elegant diamond necklace jewellery" },
+      { "src": "/Image/gallary-2.webp", "alt": "Gold diamond engagement ring" },
+      { "src": "/Image/testimonial-3.webp", "alt": "Diamond drop earrings" },
+      { "src": "/Image/product-4.webp", "alt": "Gold diamond bracelet" },
+      { "src": "/Image/product-5.webp", "alt": "Classic diamond ring" },
+      { "src": "/Image/product-6.webp", "alt": "Floral diamond pendant necklace" },
+      { "src": "/Image/product-7.webp", "alt": "Gold diamond bangles" },
+      { "src": "/Image/testimonial-2.webp", "alt": "Diamond and pearl earrings" }
+    ]
+  },
+  "testimonials": {
+    "heading": ["Happy", "Client", "Says"],
+    "imageAlt": "Jewellery customer testimonial",
+    "description": "Real stories from our valued customers who love our jewellery.",
+    "items": [
+      {
+        "name": "Miss. Stefanie Rashford",
+        "location": "UK, London",
+        "review": "The jewellery I received is absolutely gorgeous! The design, finish, and quality are beyond my expectations. It adds the perfect elegance to my collection.",
+        "image": "/Image/testimonial-1.webp"
+      },
+      {
+        "name": "Mrs. Olivia Williams",
+        "location": "UK, Manchester",
+        "review": "Absolutely beautiful craftsmanship! The jewellery looks even more stunning in person. I am extremely happy with the quality and elegant finishing.",
+        "image": "/Image/testimonial-2.webp"
+      },
+      {
+        "name": "Miss. Emily Thompson",
+        "location": "UK, Birmingham",
+        "review": "A wonderful experience from start to finish. The design is timeless, the quality is exceptional, and the jewellery feels truly luxurious.",
+        "image": "/Image/testimonial-3.webp"
+      }
+    ]
+  },
+  "faq": {
+    "heading": ["Frequently Asked", "Questions"],
+    "ctaText": "Ask us a question",
+    "description": "Find answers about our jewellery, choosing a piece, and getting in touch with our team.",
+    "items": [
+      {
+        "question": "How can I check the materials used in a piece?",
+        "answer": "Materials and certifications can vary by design. Contact us with the piece you are interested in and we will share the details available for it."
+      },
+      {
+        "question": "Can you help me choose a piece?",
+        "answer": "Tell us who you are shopping for, the occasion, and the style you have in mind, and our team can help you explore the collection."
+      },
+      {
+        "question": "Can I ask about a custom design?",
+        "answer": "Contact us with your idea and any reference images. We will let you know whether we can help with your request."
+      },
+      {
+        "question": "Where can I find shipping or returns information?",
+        "answer": "Contact us before ordering and we will confirm the current delivery and returns information for your order."
+      },
+      {
+        "question": "How should I care for my jewellery?",
+        "answer": "Store pieces separately and keep them away from moisture, perfume, and household chemicals. Use a soft jewellery cloth for gentle cleaning."
+      }
+    ]
+  },
+  "contact": {
+    "navLabel": "Contact Us",
+    "eyebrow": "We're here to help",
+    "heading": ["Let's find your", "perfect piece."],
+    "description": "Ask us about a design, materials, or choosing a gift. Get in touch with the Jewels & Luxe team and we will be happy to help.",
+    "emailCardLabel": "Email us",
+    "phoneLabel": "Call us",
+    "methods": [
+      { "icon": "Mail", "label": "Email us", "contact": "email" },
+      { "icon": "Phone", "label": "Call us", "contact": "phone" }
+    ],
+    "formTitle": "Send us a message",
+    "formDescription": "Fill in the form and your email app will open with your enquiry ready to send.",
+    "nameLabel": "Your name",
+    "namePlaceholder": "Name",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "How can we help?",
+    "submitLabel": "Send enquiry",
+    "emailSubject": "Website enquiry",
+    "emailBodyLabels": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message"
+    },
+    "successMessage": "Your email app should open with your message ready to send."
+  },
+  "footer": {
+    "modelAlt": "Jewels and Luxe jewellery collection",
+    "emailIntro": "If you have any queries reach us at",
+    "enquiryText": "For product, custom jewellery or other enquiries, feel free to contact us.",
+    "socialLinks": [
+      { "name": "Facebook", "href": "https://www.facebook.com/", "icon": "facebook" },
+      { "name": "Instagram", "href": "https://www.instagram.com/", "icon": "instagram" },
+      { "name": "Twitter", "href": "https://twitter.com/", "icon": "x" }
+    ],
+    "navigation": [
+      { "name": "Home", "href": "#home" },
+      { "name": "About Us", "href": "#about" },
+      { "name": "Our Collections", "href": "#collections" },
+      { "name": "Why Choose Us", "href": "#why-choose-us" },
+      { "name": "Gallery", "href": "#gallery" },
+      { "name": "Testimonials", "href": "#testimonials" },
+      { "name": "FAQs", "href": "#faqs" },
+      { "name": "Contact Us", "href": "#contact" }
+    ],
+    "copyright": "(c) Jewels & Luxe. All rights reserved."
+  }
+}

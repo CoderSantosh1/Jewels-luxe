@@ -20,7 +20,7 @@ const features = siteData.about.features;
 
 export default function AboutSection() {
   return (
-    <section id="about" className="relative scroll-mt-6 overflow-hidden bg-[#fffdfa] py-10 sm:py-12 lg:py-16">
+    <section id="about" className="relative scroll-mt-6 overflow-hidden bg-[#fffdfa] py-16 sm:py-20 lg:py-24">
 
       {/* Background */}
       <div className="pointer-events-none absolute inset-0 py-10 px-10">

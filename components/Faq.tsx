@@ -7,7 +7,7 @@ export default function Faq() {
   return (
     <section
       id="faqs"
-      className="scroll-mt-6 bg-[#fffaf4] px-5 py-16 sm:px-8 lg:px-10 lg:py-20"
+      className="scroll-mt-6 bg-[#fffaf4] px-5 py-16 sm:px-8 sm:py-20 lg:px-10 lg:py-24"
     >
       <div className="mx-auto grid max-w-[1250px] gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:gap-16">
         <div className="text-center lg:pt-5 lg:text-left">

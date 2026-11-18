@@ -2,6 +2,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { ArrowRight, Menu, X } from "lucide-react";
 import { siteData } from "@/data";
 
@@ -25,6 +26,7 @@ export default function Navbar() {
             className="mb-[-2px] h-[36px] w-[58px] text-[#a9540a]"
             stroke="currentColor"
             strokeWidth="2"
+            aria-hidden="true"
           >
             <path d="M8 5 H52 L30 34 Z" />
             <path d="M8 5 L20 19 L30 34 L40 19 L52 5" />

@@ -8,7 +8,7 @@ export default function CollectionSection() {
   return (
     <section
       id="collections"
-      className="relative overflow-hidden bg-[#fffaf4] py-12 sm:py-16"
+      className="relative overflow-hidden bg-[#fffaf4] py-16 sm:py-20 lg:py-24"
     >
       {/* Decorative Background Image */}
       <div className="pointer-events-none absolute inset-0">

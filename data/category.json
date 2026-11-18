@@ -16,7 +16,7 @@
         "collectionBackground": "/Image/ourcollectionbg.png",
         "aboutModel": "/Image/abouts-1.png",
         "aboutRing": "/Image/aboutus-2.png",
-        "whyChooseUs": "/Image/why-left.webp",
+        "whyChooseUs": "/Image/why-left-new.webp",
         "footerModel": "/Image/footer-model-1.jpg"
       }
     }
@@ -210,6 +210,6 @@
       { "name": "FAQs", "href": "#faqs" },
       { "name": "Contact Us", "href": "#contact" }
     ],
-    "copyright": "(c) 2026 Jewels & Luxe. All rights reserved. Powered by Lestow"
+    "copyright": "© 2026 Jewels & Luxe. All rights reserved. Powered by Lestow"
   }
 }

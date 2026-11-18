@@ -72,7 +72,7 @@ export default function Hero() {
           </p>
 
           {/* Heading */}
-          <h1 className="mb-5 font-serif text-4xl leading-[1.05] tracking-[-1.5px] text-[#171717] sm:text-5xl lg:text-[64px] lg:leading-[1.02]">
+          <h1 className="mb-5 font-serif text-[26px] leading-[1.05] tracking-[-0.5px] text-[#171717] sm:text-5xl lg:text-[64px] lg:leading-[1.02]">
             {slide.title}
             <br />
             {slide.subtitle}

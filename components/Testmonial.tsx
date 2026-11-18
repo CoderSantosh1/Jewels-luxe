@@ -14,7 +14,7 @@ export default function Testimonials() {
   const current = testimonials[active];
 
   return (
-    <section id="testimonials" className="relative overflow-hidden bg-[#fdfaf6] px-5 py-16 sm:px-8 lg:px-12 lg:py-20">
+    <section id="testimonials" className="relative overflow-hidden bg-[#fdfaf6] px-5 py-10 sm:px-8 sm:py-20 lg:px-8 lg:py-10">
 
       <div className="mx-auto max-w-[1250px]">
 

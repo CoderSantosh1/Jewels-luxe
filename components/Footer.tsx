@@ -1,7 +1,6 @@
 
 import Image from "next/image";
 import {
-  Gem,
   Phone,
   MapPin,
   CalendarDays,
@@ -52,12 +51,12 @@ function SocialIcon({ icon }: { icon: SocialLink["icon"] }) {
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden bg-[#090909] text-white">
+    <footer className="relative bg-[#090909] text-white">
 
       <div className="relative mx-auto max-w-[1440px] px-5 sm:px-8 lg:px-14">
 
         {/* Main Footer Content */}
-        <div className="relative grid grid-cols-1 gap-8 border-b border-[#c99a35] py-10 md:gap-8 md:py-12 md:pt-16 lg:grid-cols-[1fr_1.15fr_0.8fr] lg:gap-14">
+        <div className="relative grid grid-cols-1 gap-8 py-10 md:gap-8 md:py-12 md:pt-16 lg:grid-cols-[1fr_1.15fr_0.8fr] lg:gap-14 lg:pt-20">
 
           {/* Model Image */}
           <div className="relative z-10 mx-auto w-full max-w-[190px] md:max-w-[250px] lg:absolute lg:-top-[70px] lg:left-16 lg:mx-0 lg:w-[335px] lg:max-w-none">
@@ -106,7 +105,7 @@ export default function Footer() {
             <div className="mb-4 flex items-start gap-3 sm:gap-5">
               <MapPin
                 size={27}
-                className="mt-1 shrink-0 fill-[#e9bd59] text-[#e9bd59] sm:size-8"
+                className="mt-1 shrink-0 text-[#e9bd59] sm:size-8"
               />
 
               <p className="min-w-0 text-sm leading-6 text-gray-100 sm:text-lg sm:leading-7 lg:text-xl">
@@ -174,11 +173,20 @@ export default function Footer() {
             href="#home"
             className="flex shrink-0 items-center justify-center gap-3"
           >
-            <Gem
-              size={42}
-              strokeWidth={1.3}
-              className="shrink-0 text-[#e9bd59] sm:size-[49px]"
-            />
+            <svg
+              viewBox="0 0 60 38"
+              fill="none"
+              className="h-[36px] w-[42px] shrink-0 text-[#e9bd59] sm:w-[49px]"
+              stroke="currentColor"
+              strokeWidth="2"
+              aria-hidden="true"
+            >
+              <path d="M8 5 H52 L30 34 Z" />
+              <path d="M8 5 L20 19 L30 34 L40 19 L52 5" />
+              <path d="M8 5 H52" />
+              <path d="M20 19 H40" />
+              <path d="M20 5 L30 19 L40 5" />
+            </svg>
 
             <div>
               <h2 className="whitespace-nowrap font-serif text-xl tracking-wide sm:text-2xl lg:text-[27px]">

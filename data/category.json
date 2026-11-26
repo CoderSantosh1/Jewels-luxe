@@ -12,12 +12,12 @@
       "openingDays": "Monday \u2013 Saturday",
       "openingHours": "10:00 AM \u2013 6:00 PM",
       "images": {
-        "aboutBackground": "/Image/aboutusbg.png",
-        "collectionBackground": "/Image/ourcollectionbg.png",
-        "aboutModel": "/Image/abouts-1.png",
-        "aboutRing": "/Image/aboutus-2.png",
-        "whyChooseUs": "/Image/why-left-new.webp",
-        "footerModel": "/Image/footer-model-1.jpg"
+        "aboutBackground": "/Image/aboutusbg.min.webp",
+        "collectionBackground": "/Image/ourcollectionbg.min.webp",
+        "aboutModel": "/Image/abouts-1.min.webp",
+        "aboutRing": "/Image/aboutus-2.min.webp",
+        "whyChooseUs": "/Image/why-left-new.min.webp",
+        "footerModel": "/Image/footer-model-1.min.webp"
       }
     }
   },
@@ -35,21 +35,21 @@
     "ctaText": "Shop Now",
     "slides": [
       {
-        "image": "/Image/herobg-1.png",
+        "image": "/Image/herobg-1.min.webp",
         "offer": "Flat 50% Discount",
         "title": "Silver And Diamond",
         "subtitle": "Earrings",
         "description": "Designer Jewellery \u2022 Necklaces \u2022 Bracelets \u2022 Earrings"
       },
       {
-        "image": "/Image/herobg-1.png",
+        "image": "/Image/herobg-1.min.webp",
         "offer": "Exclusive Collection",
         "title": "Elegant Diamond",
         "subtitle": "Necklaces",
         "description": "Premium Jewellery \u2022 Diamond \u2022 Gold \u2022 Necklaces"
       },
       {
-        "image": "/Image/herobg-1.png",
+        "image": "/Image/herobg-1.min.webp",
         "offer": "Special Festive Offer",
         "title": "Luxury Jewellery",
         "subtitle": "Collection",
@@ -75,14 +75,14 @@
     "title": "Our Collection",
     "description": "Discover our exquisite range of handcrafted jewellery, designed to add sparkle to every occasion.",
     "products": [
-      { "name": "Twilight Diamond Ring", "image": "/Image/product-1.webp", "rating": 4, "price": "$320 - $680", "discount": "" },
-      { "name": "Pear Shape Diamond Necklace", "image": "/Image/product-2.webp", "rating": 5, "price": "$450 - $780", "discount": "" },
-      { "name": "Floral Diamond Earrings", "image": "/Image/product-3.webp", "rating": 4, "price": "$280 - $520", "discount": "" },
-      { "name": "Infinity Diamond Bracelet", "image": "/Image/product-4.webp", "rating": 5, "price": "$520 - $890", "discount": "-15%" },
-      { "name": "Leaf Diamond Ring", "image": "/Image/product-5.webp", "rating": 4, "price": "$250 - $480", "discount": "" },
-      { "name": "Classic Diamond Bangle", "image": "/Image/product-6.webp", "rating": 5, "price": "$600 - $1,050", "discount": "-20%" },
-      { "name": "Royal Diamond Pendant", "image": "/Image/product-7.webp", "rating": 4, "price": "$380 - $720", "discount": "" },
-      { "name": "Grace Diamond Earrings", "image": "/Image/product-8.webp", "rating": 5, "price": "$290 - $560", "discount": "" }
+      { "name": "Twilight Diamond Ring", "image": "/Image/product-1.min.webp", "rating": 4, "price": "$320 - $680", "discount": "" },
+      { "name": "Pear Shape Diamond Necklace", "image": "/Image/product-2.min.webp", "rating": 5, "price": "$450 - $780", "discount": "" },
+      { "name": "Floral Diamond Earrings", "image": "/Image/product-3.min.webp", "rating": 4, "price": "$280 - $520", "discount": "" },
+      { "name": "Infinity Diamond Bracelet", "image": "/Image/product-4.min.webp", "rating": 5, "price": "$520 - $890", "discount": "-15%" },
+      { "name": "Leaf Diamond Ring", "image": "/Image/product-5.min.webp", "rating": 4, "price": "$250 - $480", "discount": "" },
+      { "name": "Classic Diamond Bangle", "image": "/Image/product-6.min.webp", "rating": 5, "price": "$600 - $1,050", "discount": "-20%" },
+      { "name": "Royal Diamond Pendant", "image": "/Image/product-7.min.webp", "rating": 4, "price": "$380 - $720", "discount": "" },
+      { "name": "Grace Diamond Earrings", "image": "/Image/product-8.min.webp", "rating": 5, "price": "$290 - $560", "discount": "" }
     ]
   },
   "whyChooseUs": {
@@ -101,14 +101,14 @@
     "heading": ["Our", "Gallery"],
     "description": "A glimpse of our exquisite jewellery collection, crafted with passion and precision.",
     "images": [
-      { "src": "/Image/gallary-1.webp", "alt": "Elegant diamond necklace jewellery" },
-      { "src": "/Image/gallary-2.webp", "alt": "Gold diamond engagement ring" },
-      { "src": "/Image/testimonial-3.webp", "alt": "Diamond drop earrings" },
-      { "src": "/Image/product-4.webp", "alt": "Gold diamond bracelet" },
-      { "src": "/Image/product-5.webp", "alt": "Classic diamond ring" },
-      { "src": "/Image/product-6.webp", "alt": "Floral diamond pendant necklace" },
-      { "src": "/Image/product-7.webp", "alt": "Gold diamond bangles" },
-      { "src": "/Image/testimonial-2.webp", "alt": "Diamond and pearl earrings" }
+      { "src": "/Image/gallary-1.min.webp", "alt": "Elegant diamond necklace jewellery" },
+      { "src": "/Image/gallary-2.min.webp", "alt": "Gold diamond engagement ring" },
+      { "src": "/Image/testimonial-3.min.webp", "alt": "Diamond drop earrings" },
+      { "src": "/Image/product-4.min.webp", "alt": "Gold diamond bracelet" },
+      { "src": "/Image/product-5.min.webp", "alt": "Classic diamond ring" },
+      { "src": "/Image/product-6.min.webp", "alt": "Floral diamond pendant necklace" },
+      { "src": "/Image/product-7.min.webp", "alt": "Gold diamond bangles" },
+      { "src": "/Image/testimonial-2.min.webp", "alt": "Diamond and pearl earrings" }
     ]
   },
   "testimonials": {
@@ -120,19 +120,19 @@
         "name": "Miss. Stefanie Rashford",
         "location": "UK, London",
         "review": "The jewellery I received is absolutely gorgeous! The design, finish, and quality are beyond my expectations. It adds the perfect elegance to my collection.",
-        "image": "/Image/testimonial-1.webp"
+        "image": "/Image/testimonial-1.min.webp"
       },
       {
         "name": "Mrs. Olivia Williams",
         "location": "UK, Manchester",
         "review": "Absolutely beautiful craftsmanship! The jewellery looks even more stunning in person. I am extremely happy with the quality and elegant finishing.",
-        "image": "/Image/testimonial-2.webp"
+        "image": "/Image/testimonial-2.min.webp"
       },
       {
         "name": "Miss. Emily Thompson",
         "location": "UK, Birmingham",
         "review": "A wonderful experience from start to finish. The design is timeless, the quality is exceptional, and the jewellery feels truly luxurious.",
-        "image": "/Image/testimonial-3.webp"
+        "image": "/Image/testimonial-3.min.webp"
       }
     ]
   },
